@@ -1,0 +1,166 @@
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/Lato-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Goudy';
+    src: url('../fonts/GoudyStM.otf');
+}
+
+@font-face {
+    font-family: 'Goudy Italic';
+    src: url('../fonts/GoudyStM-Italic.otf');
+}
+
+@font-face {
+    font-family: 'Proxima Nova Reg';
+    src: url('../fonts/Proxima\ Nova\ Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Proxima Nova Light';
+    src: url('../fonts/Proxima\ Nova\ Light.ttf');
+}
+
+.font_main {
+    font-size: 16px;
+    font-weight: 300;
+    font-family: 'Lato';
+    color: #555555;
+}
+
+.font_main {
+    font-size: 16px;
+    font-family: 'Lato';
+    color: #555555;
+}
+
+.font_hero {
+    font-size: 52px;
+    font-family: 'Proxima Nova Light';
+}
+
+.font_subhero {
+    font-size: 22px;
+    font-weight: 300;
+    color: #555555;
+    font-family: 'Goudy';
+}
+
+.font_title {
+    font-size: 42px;
+    font-family: 'Proxima Nova Light';
+}
+
+.font_btn {
+    font-size: 16px !important;
+    font-weight: 300 !important;
+    font-family: 'Proxima Nova Reg' !important;
+    letter-spacing: 1px;
+    color: #ffffff !important;
+}
+
+.font_footer {
+    font-size: 12px;
+    color: #777777;
+}
+
+.font_contact {
+    font-family: 'Goudy Italic';
+    color: #b4b4b4;
+}
+
+.fa_icons {
+    color: white;
+    font-size: 17px; 
+}
+
+body {
+    overflow-y: scroll;
+}
+
+.abt {
+    font-size: 18px;
+}
+
+.srvc {
+    color: #9a9a9a !important;
+}
+
+.bg_contact {
+    background-color: #D9E2E1;
+}
+
+.hero_bg {
+    background-image: url('../img/hero\ bg.png');height: 90vh;
+    min-height: 800px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.logo {
+    height: 60px;
+}
+
+.logo:hover {
+    filter: brightness(0.335);
+}
+
+.contact_btn button {
+    height: 50px;
+    width: 245px;
+    font-size: 16px;
+    background: #111111;
+    color: white;
+    letter-spacing: 1px;
+}
+
+.contact_btn button:hover {
+    background: #555555;
+}
+
+.submit_btn button {
+    width: 245px;
+    height: 70px;
+    background: #CE9026;
+    color: #ffffff;
+} 
+
+.submit_btn button:hover {
+    background: #aa771f;
+}
+
+.nav_pref {
+    background-color: #131313;
+}
+
+.contact_info {
+    color: #ffffff;
+    font-size: 16px;
+    font-family: 'Lato';
+    height: 530px;
+}
+
+.contact_input {
+    height: 50px;
+}
+
+a:link {
+    color: #777777;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #777777;
+}
+
+a:hover, .fa_icons:hover {
+    color: #555555 !important;
+}
+
+.bg {
+    background-color: #111111;
+}
