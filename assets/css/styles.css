@@ -44,7 +44,7 @@
 
 .font_subhero {
     font-size: 22px;
-    font-weight: 300;
+    font-weight: lighter;
     color: #555555;
     font-family: 'Goudy';
 }
@@ -79,6 +79,20 @@
 
 body {
     overflow-y: scroll;
+    position: relative;
+    padding-top: 85px;
+}
+
+.hmb {
+    margin-bottom: .5em;
+}
+
+.smb {
+    margin-bottom: 1.5em;
+}
+
+.pmb {
+    margin-bottom: 2em;
 }
 
 .abt {
@@ -94,12 +108,17 @@ body {
 }
 
 .hero_bg {
-    background-image: url('../img/hero\ bg.png');height: 90vh;
+    background-image: url('../img/hero\ bg.png');height: 78vh;
     min-height: 800px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
+
+.hero_m {
+    margin-top: -170px !important;
+}
+
 
 .logo {
     height: 60px;

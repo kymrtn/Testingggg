@@ -12,7 +12,7 @@
     <script src="https://kit.fontawesome.com/edee0eaa97.js" crossorigin="anonymous"></script>
 </head>
 
-<body>
+<body data-spy="scroll">
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top nav_pref" id="topnav">
         <div class="container">
             <a class="navbar-brand" href="#"><img src="assets/img/LOGO bear.png" class="logo"></a>
@@ -43,15 +43,15 @@
             </div>
         </div>
     </nav>
-    <!-- Hero -->   
+    <section data-bs-spy="scroll" data-bs-target="#topnav" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" tabindex="0">
     <header id="home" class="hero_bg">
         <div class="container h-100">
             <div class="row h-100 align-items-center">
-                <div class="col-12 text-center" style="margin-top: -250px ;">
-                    <h1 class="fw-light font_hero ">Lorem ipsum dolor sit amet, consectetur</h1>
-                    <p class="pHeader font_subhero">Vestibulum tortor metus, eleifend vel dui vel, pharetra elementum
-                        dui.</p>
-
+                <div class="col-12 text-center hero_m">
+                    <h1 class="fw-light font_hero">Lorem ipsum dolor sit amet consectetur</h1>
+                    <p class="font_subhero smb">Vestibulum tortor metus, eleifend vel dui vel, pharetra elementum
+                        dui.
+                    </p>
                     <div class="contact_btn font_btn pt-4">
                         <a href="#contact"><button>CONTACT</button></a>
                     </div>
@@ -60,20 +60,22 @@
             </div>
         </div>
     </header>
-    <!-- Hero -->
     <section id="about" class="py-5">
         <div class="container px-2">
             <div class="row gx-2 justify-content-center">
                 <div class="col-lg-8 text-center">
-                    <h2 class="font_title">This is a slicing test.</h2>
-                    <p class="font_main abt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras et lacus
+                    <h2 class="font_title hmb">This is a slicing test.</h2>
+                    <p class="font_main abt pmb">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras et lacus
                         vitae
                         ipsum porta pharetra. Cras a ligula ex. Donec ac dolor neque. Quisque tristique eu lectus nec
                         fermentum. Maecenas ac lectus dapibus, eleifend felis in, accumsan eros. Vestibulum id efficitur
-                        metus. Phasellus sit amet euismod urna. <br> <br>
+                        metus. Phasellus sit amet euismod urna.
+                    </p>
+                    <p class="font_main abt">
                         Aliquam mattis, odio eget feugiat interdum, metus risus maximus sem, id aliquet felis quam eget
                         nibh. Donec sollicitudin, elit a hendrerit facilisis, arcu leo viverra lacus, vitae venenatis
-                        diam nunc sit amet tellus.</p>
+                        diam nunc sit amet tellus.
+                    </p>
                 </div>
             </div>
         </div>
@@ -82,22 +84,21 @@
         <div class="container px-4">
             <div class="row gx-4 justify-content-center text-white ">
                 <div class="col-md-6">
-                    <h2 class="font_title">This is a 2 column layout.</h2>
-                    <p class="font_main srvc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut optio velit
-                        inventore, expedita quo laboriosam possimus ea consequatur vitae, doloribus consequuntur ex.
-                        Nemo assumenda laborum vel, labore ut velit dignissimos. <br><br>
-                        Aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                        culpa qui officia deserunt mollit anim id est laborum. <br><br></p>
+                    <h2 class="font_title hmb">This is a 2 column layout.</h2>
+                    <p class="font_main srvc pmb">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras et lacus vitae ipsum porta pharetra. Cras a ligula ex. Donec ac dolor neque. Quisque tristique eu lectus nec fermentum. Maecenas ac lectus dapibus, eleifend felis in, accumsan eros. Vestibulum id efficitur metus. Phasellus sit amet euismod urna. 
+                    </p>
+                    <p class="font_main srvc">
+                        Aliquam mattis, odio eget feugiat interdum, metus risus maximus sem, id aliquet felis quam eget nibh. Donec sollicitudin, elit a hendrerit facilisis, arcu leo viverra lacus, vitae venenatis diam nunc sit amet tellus.
+                    </p>
                 </div>
                 <div class="col-md-6">
-                    <h2 class="font_title">Ain't it?</h2>
-                    <p class="font_main srvc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut optio velit
-                        inventore, expedita quo laboriosam possimus ea consequatur vitae, doloribus consequuntur ex.
-                        Nemo assumenda laborum vel, labore ut velit dignissimos. <br><br>
-                        Aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                        culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <h2 class="font_title hmb">Ain't it?</h2>
+                    <p class="font_main srvc pmb">
+                              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras et lacus vitae ipsum porta pharetra. Cras a ligula ex. Donec ac dolor neque. Quisque tristique eu lectus nec fermentum. Maecenas ac lectus dapibus, eleifend felis in, accumsan eros. Vestibulum id efficitur metus. Phasellus sit amet euismod urna. 
+                    </p>
+                    <p class="font_main srvc">
+                        Aliquam mattis, odio eget feugiat interdum, metus risus maximus sem, id aliquet felis quam eget nibh. Donec sollicitudin, elit a hendrerit facilisis, arcu leo viverra lacus, vitae venenatis diam nunc sit amet tellus.
+                    </p>
                 </div>
             </div>
         </div>
@@ -106,24 +107,33 @@
         <div class="container py-5 px-5 bg_contact">
             <div class="row">
                 <div class="col-lg-7">
-                    <h2 class="font_title">This is wrapped.</h2>
-                    <br> 
-                    <p class="font_main">Aenean ornare mi ac sodales varius. Ut consequat lacus in erat tincidunt
+                    <h2 class="font_title hmb">This is wrapped.</h2>
+                    <p class="font_main pmb">
+                        Aenean ornare mi ac sodales varius. Ut consequat lacus in erat tincidunt
                         vulputate. Proin vel quam sagittis, aliquet diam eu, sodales justo. Vestibulum ante ipsum primis
                         in faucibus orci luctus et ultrices posuere cubilia Curae; Donec vitae egestas risus. Maecenas
-                        fringilla nisl a quam luctus consectetur.<br><br>Nulla ac lorem tincidunt, rhoncus tortor
-                        vitae, ultricies purus. Etiam ornare tempor lorem sed auctor. Phasellus justo lacus, lacinia eu
-                        mattis quis, congue vel nulla. Duis volutpat aliquet mi sit amet accumsan. <br><br>
+                        fringilla nisl a quam luctus consectetur.
+                    </p>
+                    <p class="font_main pmb">
+                        Nulla ac lorem tincidunt, rhoncus tortor vitae, ultricies purus. Etiam ornare tempor lorem sed auctor. Phasellus justo lacus, lacinia eu
+                        mattis quis, congue vel nulla. Duis volutpat aliquet mi sit amet accumsan.
+                    </p>
+                    <p class="font_main pmb">
                         Phasellus ut lacus mollis, efficitur purus sed, pharetra mauris. Donec id quam vitae nibh congue
-                        finibus. Sed diam dui, aliquam at pulvinar nec, porttitor at turpis.<br><br>Donec arcu tellus,
-                        fringilla id purus ac, fermentum faucibus quam. Sed et urna mattis lorem sollicitudin
+                        finibus. Sed diam dui, aliquam at pulvinar nec, porttitor at turpis.
+                    </p>
+                    <p class="font_main pmb">
+                        Donec arcu tellus,fringilla id purus ac, fermentum faucibus quam. Sed et urna mattis lorem sollicitudin
                         scelerisque sit amet eu eros. Duis lobortis sapien sit amet ullamcorper congue. Nulla accumsan
                         odio pellentesque arcu condimentum convallis. Sed dignissim tincidunt purus, ac condimentum
-                        quam. <br><br>
+                        quam.
+                    </p>
+                    <p class="font_main pmb">
                         Integer ut nunc auctor quam porttitor varius in in sem. Pellentesque habitant morbi tristique
                         senectus et netus et malesuada fames ac turpis egestas. Donec mi quam, volutpat ac varius vel,
                         sodales ut libero. Orci varius natoque penatibus et magnis dis parturient montes, nascetur
-                        ridiculus mus. Nam ac dapibus diam, vel aliquet ex. Morbi tincidunt dictum bibendum.</p>
+                        ridiculus mus. Nam ac dapibus diam, vel aliquet ex. Morbi tincidunt dictum bibendum.
+                    </p>
                 </div>
 
                 <div class="col-lg-5 bg contact_info">
@@ -156,24 +166,25 @@
         </div>
 
     </section>
+</section>
 
     <footer class="py-5 bg">
         <div class="container px-3 ">
             <div class="row gx-4 font_footer">
                 <div class="col">
                     <a href="https://www.carlocab.com/"><img src="assets/img/LOGO carlocab.png"></a>
-                    <p> <br> Copyright © 2017 Carl Ocab Internet Marketing Services • <a href="#">Privacy Policy</a> •
+                    <p>Copyright © 2017 Carl Ocab Internet Marketing Services • <a href="#">Privacy Policy</a> •
                         <a href="#"> Contact Us</a> </p>
                 </div>
                 <div class="col">
-                    <p class="text-end"><br><br> 5 La Carlota St., Alabang Hills Village, Cupang, Muntinlupa 1771, Metro
-                        Manila, Philippines <br>
+                    <p class="text-end"> <a href="https://goo.gl/maps/K7MdbVSL4uWCMJdT8">5 La Carlota St., Alabang Hills Village, Cupang, Muntinlupa 1771, Metro
+                        Manila, Philippines</a> <br>
                         US: <a href="tel:+4733378901">+1 (800) 765-2158</a> • Philippines: <a href="tel:+4733378901">
                             +63 (917) 833-960</a> </p>
                 </div>
             </div>
     </footer>
-    <script src="assets/js/scripts.js"></script>
+    <script src="assets/js/script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous">
     </script>
