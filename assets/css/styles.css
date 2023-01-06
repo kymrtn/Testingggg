@@ -108,7 +108,8 @@ body {
 }
 
 .hero_bg {
-    background-image: url('../img/hero\ bg.png');height: 78vh;
+    background-image: url('../img/hero\ bg.png');
+    height: 100vh;
     min-height: 800px;
     background-size: cover;
     background-position: center;
@@ -144,7 +145,7 @@ body {
 .submit_btn button {
     width: 245px;
     height: 70px;
-    background: #CE9026;
+    background: #D79728;
     color: #ffffff;
 } 
 
